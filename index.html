@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+ 
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="style.css">
+</head>
+         
+        
+    <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+        <div class="card p-4 shadow login-card">
+            <h3 class="text-center mb-4">Login</h3>
+      
+            <input type="text" id="username" class="form-control mb-3" placeholder="Username">
+    
+            <input type="password" id="password" class="form-control mb-3" placeholder="Password">
+     
+            <button onclick="validateLogin()" class="btn btn-primary btn-block">Submit</button>
+
+            <p id="errorMessage" class="text-danger text-center mt-2"></p>
+        </div>
+    </div>
+
+    
+    <script src="login.js"></script>
+</body>
+</html>

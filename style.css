@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    
+    margin: 0;
+    background: url("images/pexels-taryn-elliott-4840134.jpg") no-repeat;
+    background-size: cover;
+}
+
+.login-card {
+    width: 400px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
